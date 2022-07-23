@@ -13,7 +13,8 @@ The pill reminder won't let you miss any medication, drugs, supplements, or cont
 If you take meds 2 times a day, supplement or Vitamin every day, any medication for 1 month, contraceptive pill for 21 days, etc. We can remind you and you won't miss one.
 
 
-https://github.com/arpk92/Period-Calendar-Period-Tracker/blob/main/img_product_1360.png
+![image](https://user-images.githubusercontent.com/52374633/180609735-63178a66-642f-4c76-b3bf-815d4a84f43a.png)
+
 
 Except for the basic period cycle tracker function, girls can record anything about herself such as cycles, symptoms, moods, cervical mucus, intercourse, weight, temperature, note or pills which you want birth control and etc. It is designed to be your personal light diary and sweet secretary.
 
