@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/calender">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.projectplany.ui.FragmentProfile"
+        android:label="My profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/calender"
+        android:name="com.example.projectplany.ui.FragmentCalender"
+        android:label="Calender"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/toDoList"
+        android:name="com.example.projectplany.ui.FragmentToDoList"
+        android:label="To Do List"
+        tools:layout="@layout/fragment_to_do_list" />
+    <fragment
+        android:id="@+id/student_schedule"
+        android:name="com.example.projectplany.ui.FragmentSchedule"
+        android:label="My schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/gpa_calculator"
+        android:name="com.example.projectplany.ui.FragmentCalculator"
+        android:label="GPA calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/study_info"
+        android:name="com.example.projectplany.ui.FragmentStudyInfo"
+        android:label="Study tips"
+        tools:layout="@layout/fragment_study_info" />
+    <fragment
+        android:id="@+id/hlth_follow"
+        android:name="com.example.projectplany.ui.FragmentHlthFollow"
+        android:label="Health follow-up"
+        tools:layout="@layout/fragment_hlth_follow" />
+
+
+
+</navigation>

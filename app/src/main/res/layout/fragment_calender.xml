@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gpaback"
+    tools:context=".ui.FragmentCalender">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="65dp"
+        android:text="@string/save"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:layout_alignStart="@+id/calendarView"
+        android:layout_alignEnd="@+id/calendarView"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="62dp"
+        android:ems="10"
+        android:hint="Pleas Enter event"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="262dp"
+        android:layout_height="209dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/buttonSave"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-91dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-18dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/calnd" />
+
+</RelativeLayout>

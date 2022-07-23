@@ -1,0 +1,11 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorAccent"
+    android:textStyle="bold"
+    android:textColor="#000"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center_horizontal|center_vertical"
+    >
+
+</Button>
